@@ -1,0 +1,56 @@
+<div id="contact">
+  <div class="py-6">
+    <div class="grid grid-nogutter">
+      <div class="col-12 md:col-6 bg-no-repeat bg-cover p-8"
+           style="background-image: url('https://i.postimg.cc/Z5XRqdWr/image.png')">
+        <div class="text-white text-2xl font-medium mb-6">Contáctanos</div>
+        <div class="text-gray-300 line-height-3 mb-6 text-justify">Si tienes preguntas o necesitas más información sobre
+          nuestros servicios, no dudes en ponerte en contacto con nosotros. Nuestro equipo está aquí para ayudarte y
+          atender tus necesidades.
+        </div>
+        <a class="inline-flex align-items-center text-primary font-bold no-underline cursor-pointer">
+          <span class="mr-3">Ver dirección en Google Maps</span>
+          <i class="pi pi-arrow-right"></i>
+        </a>
+        <ul class="list-none p-0 m-0 mt-6 text-white">
+          <li class="flex align-items-center mb-3">
+            <i class="pi pi-phone mr-2"></i>
+            <span>+987654321</span>
+          </li>
+          <li class="flex align-items-center mb-3">
+            <i class="pi pi-twitter mr-2"></i>
+            <span>finapp_ng</span>
+          </li>
+          <li class="flex align-items-center">
+            <i class="pi pi-inbox mr-2"></i>
+            <span>contactfinapp.com.tr</span>
+          </li>
+        </ul>
+      </div>
+      <div class="col-12 md:col-6">
+        <div class="p-fluid formgrid grid px-4 py-8 md:px-6 lg:px-8">
+          <div class="field col-12 lg:col-6 mb-4">
+            <input id="firstname" type="text" class="py-3 px-2 text-lg" pInputText placeholder="Nombres">
+          </div>
+          <div class="field col-12 lg:col-6 mb-4">
+            <input id="lastname" type="text" class="py-3 px-2 text-lg" pInputText placeholder="Apellidos">
+          </div>
+          <div class="field col-12 mb-4">
+            <input id="email" type="text" pInputText class="py-3 px-2 text-lg" placeholder="Correo">
+          </div>
+          <div class="field col-12 mb-4">
+            <input id="phone" type="text" pInputText class="py-3 px-2 text-lg" placeholder="Teléfono">
+          </div>
+          <div class="field col-12 mb-4">
+          <textarea id="message" pInputTextarea rows="3" [autoResize]="true" class="py-3 px-2 text-lg"
+                    placeholder="Mensaje"></textarea>
+          </div>
+          <div class="col-12 text-center">
+            <button type="button" pButton pRipple label="Enviar" icon="pi pi-envelope"
+                    class="px-5 py-3 w-auto"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

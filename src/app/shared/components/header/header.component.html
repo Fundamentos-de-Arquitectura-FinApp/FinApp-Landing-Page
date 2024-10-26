@@ -1,0 +1,66 @@
+<div class="sticky top-0" style="z-index: 1000">
+  <div
+    class="surface-overlay py-3 px-6 shadow-2 flex align-items-center justify-content-between relative lg:static">
+    <img src="https://i.postimg.cc/K8VV7Yg0/logo-finapp.png" alt="Image" height="50">
+    <a class="cursor-pointer block lg:hidden text-700" pStyleClass="@next" enterFromClass="hidden" leaveToClass="hidden"
+       [hideOnOutsideClick]="true">
+      <i class="pi pi-bars text-4xl"></i>
+    </a>
+    <div
+      class="align-items-center flex-grow-1 justify-content-between hidden lg:flex absolute lg:static w-full surface-overlay left-0 top-100 px-6 lg:px-0 z-2 shadow-2 lg:shadow-none">
+      <section></section>
+      <ul
+        class="list-none p-0 m-0 flex lg:align-items-center text-900 select-none flex-column lg:flex-row cursor-pointer">
+        <li class="relative">
+          <a pRipple
+             class="flex align-items-center px-0 lg:px-5 py-3 hover:text-blue-600 font-medium transition-colors transition-duration-150"
+             pStyleClass="@next" enterFromClass="hidden" enterActiveClass="scalein" leaveToClass="hidden"
+             leaveActiveClass="fadeout" [hideOnOutsideClick]="true"
+             (click)="scrollToSection('home')">
+            <i class="pi pi-home text-2xl mr-3 text-primary"></i>
+            <span>Inicio</span>
+          </a>
+        </li>
+        <li>
+          <a pRipple
+             class="flex align-items-center px-0 lg:px-5 py-3 hover:text-blue-600 font-medium transition-colors transition-duration-150"
+             (click)="scrollToSection('characteristics')">
+            <i class="pi pi-file-check text-2xl mr-3 text-primary"></i>
+            <span>Características</span>
+          </a>
+        </li>
+        <li>
+          <a pRipple
+             class="flex align-items-center px-0 lg:px-5 py-3 hover:text-blue-600 font-medium transition-colors transition-duration-150"
+             (click)="scrollToSection('benefits')">
+            <i class="pi pi-money-bill text-2xl mr-3 text-primary"></i>
+            <span>Beneficios</span>
+          </a>
+        </li>
+        <li>
+          <a pRipple
+             class="flex align-items-center px-0 lg:px-5 py-3 hover:text-blue-600 font-medium transition-colors transition-duration-150"
+             (click)="scrollToSection('reviews')">
+            <i class="pi pi-comment text-2xl mr-3 text-primary"></i>
+            <span>Reseñas</span>
+          </a>
+        </li>
+        <li>
+          <a pRipple
+             class="flex align-items-center px-0 lg:px-5 py-3 hover:text-blue-600 font-medium transition-colors transition-duration-150"
+             (click)="scrollToSection('contact')">
+            <i class="pi pi-phone text-2xl mr-3 text-primary"></i>
+            <span>Contacto</span>
+          </a>
+        </li>
+      </ul>
+      <div
+        class="flex justify-content-between lg:block border-top-1 lg:border-top-none surface-border py-3 lg:py-0 mt-3 lg:mt-0">
+        <button pButton pRipple label="Login" class="p-button font-bold"></button>
+        <button pButton pRipple label="Register" class="xl:ml-3 p-button-outlined font-bold"></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+

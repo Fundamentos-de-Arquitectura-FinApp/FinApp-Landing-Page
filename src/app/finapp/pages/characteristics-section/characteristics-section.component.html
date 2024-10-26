@@ -1,0 +1,118 @@
+<div id="characteristics">
+  <div class="px-4 py-6 md:px-6 lg:px-8 text-center">
+    <div class="mb-6 font-bold text-5xl">
+      <span class="text-900">Una Plataforma, </span>
+      <span class="text-primary">Múltiples Soluciones</span>
+    </div>
+    <div class="grid">
+      <div class="fadeinleft animation-duration-1000 animation-iteration-1 col-12 md:col-4 mb-4 px-2">
+        <p-card class="shadow-2 border-round">
+          <ng-template pTemplate="header">
+            <div class="flex align-items-center justify-content-center"
+                 style="background-color: var(--yellow-500); border-radius: 10px; height: 80px;">
+              <i class="pi pi-user-plus text-5xl text-white"></i>
+            </div>
+          </ng-template>
+          <div>
+            <app-carousel-horizontal-benefits [products]="imagesBenefits1"></app-carousel-horizontal-benefits>
+          </div>
+          <ng-template pTemplate="body">
+            <div class="text-900 text-xl mb-3 font-bold">Gestión de Clientes</div>
+            <span class="text-700 line-height-3">Registra nuevos clientes fácilmente, define sus límites de crédito y configura sus cuentas según las políticas de tu negocio.</span>
+          </ng-template>
+        </p-card>
+      </div>
+
+      <div class="zoomindown animation-duration-1000 animation-iteration-1 col-12 md:col-4 mb-4 px-2">
+        <p-card class="shadow-2 border-round">
+          <ng-template pTemplate="header">
+            <div class="flex align-items-center justify-content-center"
+                 style="background-color: var(--teal-500); border-radius: 10px; height: 80px;">
+              <i class="pi pi-money-bill text-5xl text-white"></i>
+            </div>
+          </ng-template>
+          <div>
+            <app-carousel-horizontal-benefits [products]="imagesBenefits2"></app-carousel-horizontal-benefits>
+          </div>
+          <ng-template pTemplate="body">
+            <div class="text-900 text-xl mb-3 font-bold">Control de Pagos y Saldos</div>
+            <span class="text-700 line-height-3">Consulta saldos, pagos realizados y detalla consumos con cálculos de interés, ya sea de tasas nominales o efectivas.</span>
+          </ng-template>
+        </p-card>
+      </div>
+
+      <div class="fadeinright animation-duration-1000 animation-iteration-1 col-12 md:col-4 mb-4 px-2">
+        <p-card class="shadow-2 border-round">
+          <ng-template pTemplate="header">
+            <div class="flex align-items-center justify-content-center"
+                 style="background-color: var(--pink-500); border-radius: 10px; height: 80px;">
+              <i class="pi pi-calendar text-5xl text-white"></i>
+            </div>
+          </ng-template>
+          <div>
+            <app-carousel-horizontal-benefits [products]="imagesBenefits3"></app-carousel-horizontal-benefits>
+          </div>
+          <ng-template pTemplate="body">
+            <div class="text-900 text-xl mb-3 font-bold">Fechas de Pago Configurables</div>
+            <span class="text-700 line-height-3">Establece fechas de pago personalizadas para cada cliente, asegurando que los pagos se mantengan al día.</span>
+          </ng-template>
+        </p-card>
+      </div>
+
+      <div class="fadeinleft animation-duration-1000 animation-iteration col-12 md:col-4 mb-4 px-2">
+        <p-card class="shadow-2 border-round">
+          <ng-template pTemplate="header">
+            <div class="flex align-items-center justify-content-center"
+                 style="background-color: var(--purple-500); border-radius: 10px; height: 80px;">
+              <i class="pi pi-chart-line text-5xl text-white"></i>
+            </div>
+          </ng-template>
+          <div>
+            <app-carousel-horizontal-benefits [products]="imagesBenefits4"></app-carousel-horizontal-benefits>
+          </div>
+          <ng-template pTemplate="body">
+            <div class="text-900 text-xl mb-3 font-bold">Reportes Detallados</div>
+            <span class="text-700 line-height-3">Genera e imprime reportes de cuentas, pagos y movimientos para un seguimiento exhaustivo y profesional.</span>
+          </ng-template>
+        </p-card>
+      </div>
+
+      <div class="zoominup animation-duration-1000 animation-iteration-1 col-12 md:col-4 mb-4 px-2">
+        <p-card class="shadow-2 border-round">
+          <ng-template pTemplate="header">
+            <div class="flex align-items-center justify-content-center"
+                 style="background-color: var(--red-500); border-radius: 10px; height: 80px;">
+              <i class="pi pi-exclamation-circle text-5xl text-white"></i>
+            </div>
+          </ng-template>
+          <div>
+            <app-carousel-horizontal-benefits [products]="imagesBenefits5"></app-carousel-horizontal-benefits>
+          </div>
+          <ng-template pTemplate="body">
+            <div class="text-900 text-xl mb-3 font-bold">Interés Moratorio</div>
+            <span class="text-700 line-height-3">Aplica tasas de interés moratorio en caso de retrasos de pago y asegura la gestión de crédito responsable.</span>
+          </ng-template>
+        </p-card>
+      </div>
+
+      <div class="fadeinright animation-duration-1000 animation-iteration-1 col-12 md:col-4 mb-4 px-2">
+        <p-card class="shadow-2 border-round">
+          <ng-template pTemplate="header">
+            <div class="flex align-items-center justify-content-center"
+                 style="background-color: var(--blue-500); border-radius: 10px; height: 80px;">
+              <i class="pi pi-shield text-5xl text-white"></i>
+            </div>
+          </ng-template>
+          <div>
+            <app-carousel-horizontal-benefits [products]="imagesBenefits6"></app-carousel-horizontal-benefits>
+          </div>
+          <ng-template pTemplate="body">
+            <div class="text-900 text-xl mb-3 font-bold">Seguridad Confiable</div>
+            <span class="text-700 line-height-3">Protege la información de tus clientes y garantiza un sistema de gestión de crédito seguro y confiable.</span>
+          </ng-template>
+        </p-card>
+      </div>
+    </div>
+  </div>
+</div>
+
